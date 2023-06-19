@@ -1,0 +1,42 @@
+.footer_div{
+    color:white;
+    position:absolute;
+   
+    bottom:20%;
+    width:100%;
+    justify-content: space-evenly;
+    display:flex;
+    gap:60px;
+    left:0%; 
+}
+.links li{
+    display:flex;
+    align-items: center;
+}
+.links li img{
+    margin-right:10px;
+}
+.footer_div ul{
+    list-style:none;
+}
+.footer_div ul h3{
+    margin-bottom:10px;
+}
+.footer_contact{
+    width:16%;
+    
+}
+.footer_contact p{
+    margin-top:10px;
+    line-height:35px;
+    margin-bottom:40px;
+}
+.fli{
+    font-size:18px;
+   color:#C7C7C7;
+   line-height:35px;
+   
+}
+.fli:visited{
+    text-decoration: none;
+}

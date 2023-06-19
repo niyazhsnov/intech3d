@@ -6,7 +6,7 @@ import { Parallax,ParallaxLayer } from '@react-spring/parallax'
 import "./Users2.css"
 
 const User = () => {
-  const backimage = 'http://3.123.22.66/django_media/services_page/services-image.jpg'
+  const backimage = 'https://static.wixstatic.com/media/c837a6_cfda4af88c6e416d83090a3fd76e6bbf~mv2.jpg/v1/fill/w_1519,h_758,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_cfda4af88c6e416d83090a3fd76e6bbf~mv2.jpg'
   const  instagramlink = 'https://www.instagram.com/intech.main/';
   return (
     <Parallax pages={3} style={{zIndex:'-22',marginTop:'-2.7%',height:'100%'}}>

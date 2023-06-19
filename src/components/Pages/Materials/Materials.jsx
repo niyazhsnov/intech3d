@@ -12,7 +12,7 @@ const Materials = () => {
       <div className='materials_table'>
   <ul className='materials_table_column'>
     <li>   <div className='materials_table_etiket'>Plastic</div></li>
-    <li><img alt='' className='materials_table_img' src='http://3.123.22.66/django_media/materials/materials-plastic.jpg' /></li>
+    <li><img alt='' className='materials_table_img' src='https://static.wixstatic.com/media/c837a6_a16c0600747c43ac9446383802517898~mv2.jpg/v1/fill/w_353,h_219,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Material_1.jpg' /></li>
     <div className='materials_table_column_titles'>
     <li><p>POM (Delrin/Acetal)</p></li>
     <li><p>Nylon</p></li>
@@ -28,7 +28,7 @@ const Materials = () => {
   </ul>
   <ul className='materials_table_column'>
     <li>   <div className='materials_table_etiket'>Metal</div></li>
-    <li><img alt='' className='materials_table_img' src='http://3.123.22.66/django_media/materials/materials-metal.jpg' /></li>
+    <li><img alt='' className='materials_table_img' src='https://static.wixstatic.com/media/c837a6_fedc97e9df8c47b7b8b4d79e3c753aef~mv2.jpg/v1/fill/w_353,h_219,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Material_3.jpg' /></li>
     <div className='materials_table_column_titles'>
     <li><p>Aluminum</p></li>
     <li><p>Stainless steel</p></li>
@@ -44,7 +44,7 @@ const Materials = () => {
   </ul>
   <ul className='materials_table_column'>
     <li>   <div className='materials_table_etiket'>Elastomer</div></li>
-    <li><img alt='' className='materials_table_img' src='http://3.123.22.66/django_media/materials/materials-elastomer.jpg' /></li>
+    <li><img alt='' className='materials_table_img' src='https://static.wixstatic.com/media/c837a6_2cebc290dc794c1ca710a99980a465bb~mv2.jpg/v1/fill/w_353,h_219,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Material_2.jpg' /></li>
     <div className='materials_table_column_titles'>
     <li><p>EPM</p></li>
     <li><p>EPDM rubber</p></li>

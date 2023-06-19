@@ -24,7 +24,7 @@ I'm a paragraph. Click here to add your own text and edit me. I’m a great plac
             I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
             </p>
           </div>
-           <img className='about_section1_img' src='http://3.123.22.66/django_media/about_page/about-page-3d-printer.jpg'/>
+           <img className='about_section1_img' src='https://static.wixstatic.com/media/c837a6_bb5b3c8a1cd442e1b35892348cae6a69~mv2.jpg/v1/fill/w_658,h_636,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/shutterstock_1672982068%20copy.jpg' alt=''/>
          </div>
       </div>
       
@@ -61,7 +61,7 @@ I'm a paragraph. Click here to add your own text and edit me. I’m a great plac
     </ul>
     </div>
     </div>
-    <img width='100%'className='section2_about_back' src='http://3.123.22.66/django_media/about_page/about-page-image.jpg'/>
+    <img width='100%'className='section2_about_back' src='https://static.wixstatic.com/media/c837a6_99399561ee55486a91ff6ada4e792f77~mv2.jpg/v1/fill/w_1519,h_1162,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_99399561ee55486a91ff6ada4e792f77~mv2.jpg' alt=''/>
     </ParallaxLayer>
     
     <ParallaxLayer  offset={2} style={{background:'#252934',zIndex:'9'}}>

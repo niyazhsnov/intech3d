@@ -11,6 +11,7 @@ import svg2 from './media/section3.2.png'
 import moci from './media/mico.png'
 import ionia from './media/ionia.png'
 import dimenxen from './media/dimenxen.png'
+import video from './media/home-page-video.mp4'
 import drolo from './media/drolo.png'
 import topli from './media/topli.png'
 import adam1 from './media/adam1.jpg'
@@ -50,7 +51,7 @@ const Home = () => {
         <li><div className='span'></div>Available in 57 Countries</li>
        <li> <div className='span'></div> 42 Industrial Printers</li>
         </ul></div>
-        <img width='100%'  src='http://3.123.22.66/django_media/home_page/home-page-first-image.jpg'></img>
+        <img width='100%'  src='https://static.wixstatic.com/media/c837a6_12191520cc14491e89ef1e75e5bbf40d~mv2.jpg/v1/fill/w_1519,h_1100,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_12191520cc14491e89ef1e75e5bbf40d~mv2.jpg' alt=''></img>
         </ParallaxLayer>
         <ParallaxLayer offset={1}>
         <Link   to="/about"> <button  className='button3' >Learn More</button></Link>
@@ -67,7 +68,7 @@ const Home = () => {
                
             </div>
           </div>
-         <video width='100%' loop autoPlay muted><source src='http://3.123.22.66/django_media/home_page/home-page-video.mp4' type="video/mp4"/></video>
+         <video width='100%' loop autoPlay muted><source src={video} type="video/mp4"/></video>
         
         </ParallaxLayer>
         <ParallaxLayer offset={2}>
@@ -82,7 +83,7 @@ const Home = () => {
                 <p className='card_title'>Cutting Edge <br></br> Printers</p>
                 <p style={{marginTop:'-6%'}}>I'm a paragraph. Click here to add<br></br> your own text and edit me. Let your <br></br> users get to know you.</p>
                 </div>
-                <div style={{marginLeft:'90px'}}><img width='60px' src={svg2}></img>
+                <div style={{marginLeft:'90px'}}><img width='60px' src={svg2} alt=''></img>
                 <p className='card_title'>Durable, High <br></br>quality materials</p>
                 <p className='card_p'>I'm a paragraph. Click here to add <br></br>your own text and edit me. Let your <br></br>users get to know you.</p>
                
@@ -91,14 +92,14 @@ const Home = () => {
                 </li>
                 <li style={{display:'flex',marginTop:'5%'}}>
                   <div>
-                <img alt='' width='60px' src={svg3}></img>
+                <img alt='' width='60px' src={svg3} ></img>
                 <p className='card_title'>Bespoke<br></br>
 Service</p>
                 <p className='card_p'>I'm a paragraph. Click here to add <br></br>your own text and edit me. Let your <br></br>users get to know you.</p>
                
                 </div>
                 <div  style={{marginLeft:'90px'}} >
-                <img alt='' width='60px' src={svg4}></img>
+                <img alt='' width='60px' src={svg4} ></img>
                 <p className='card_title'>Experienced<br></br> Advisor Service</p>
                 <p className='card_p'>I'm a paragraph. Click here to add <br></br>your own text and edit me. Let your <br></br>users get to know you.</p>
                
@@ -110,7 +111,7 @@ Service</p>
             </div>
          
           </div>
-        <img width='100%' src='http://3.123.22.66/django_media/home_page/home-page-second-image.jpg'/>
+        <img width='100%' src='https://static.wixstatic.com/media/c837a6_1164bd9a80a84d56b72dfd9692fd0c03~mv2.jpg/v1/fill/w_1823,h_995,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_1164bd9a80a84d56b72dfd9692fd0c03~mv2.jpg' alt=''/>
 
         </ParallaxLayer>
        < ParallaxLayer offset={3} style={{background:'black'}}>
@@ -121,19 +122,19 @@ Service</p>
            <ul className='section4_cards'>
             <li className='section4_card'>
               <div className='dene1'>
-                <img alt='' className='dene' src='http://3.123.22.66/django_media/materials/materials-plastic.jpg' />
+                <img alt='' className='dene' src='https://static.wixstatic.com/media/c837a6_a16c0600747c43ac9446383802517898~mv2.jpg/v1/fill/w_420,h_315,q_90/c837a6_a16c0600747c43ac9446383802517898~mv2.jpg' />
               </div>
               <p className='section4_card_title'>Plastic</p>
             </li>
             <li className='section4_card'>
             <div className='dene1'>
-                <img alt='' className='dene' src='http://3.123.22.66/django_media/materials/materials-metal.jpg'></img>
+                <img alt='' className='dene' src='https://static.wixstatic.com/media/c837a6_fedc97e9df8c47b7b8b4d79e3c753aef~mv2.jpg/v1/fill/w_420,h_315,q_90/c837a6_fedc97e9df8c47b7b8b4d79e3c753aef~mv2.jpg' ></img>
               </div>
               <p className='section4_card_title'>Metal</p>
             </li>
             <li className='section4_card'>
             <div className='dene1'>
-                <img alt='' className='dene' src='http://3.123.22.66/django_media/materials/materials-elastomer.jpg'></img>
+                <img alt='' className='dene' src='https://static.wixstatic.com/media/c837a6_2cebc290dc794c1ca710a99980a465bb~mv2.jpg/v1/fill/w_419,h_315,q_90/c837a6_2cebc290dc794c1ca710a99980a465bb~mv2.jpg'></img>
               </div>
               <p className='section4_card_title'>Elastomer</p>
             </li>
@@ -240,41 +241,30 @@ Service</p>
           <p>image title</p>
         </div>
         <div className='carousel_img'>
-        <img className='carousel_imgimg'  src={carousel1}></img>
+        <img className='carousel_imgimg'  src='https://static.wixstatic.com/media/c837a6_6b4a80d4ade941afa57521ac565576ed~mv2.jpg/v1/fill/w_307,h_275,q_90/c837a6_6b4a80d4ade941afa57521ac565576ed~mv2.jpg'></img>
         <p>image title</p>
         </div>
         <div className='carousel_img'>
-        <img className='carousel_imgimg'  src={carousel1}></img>
+        <img className='carousel_imgimg'  src='https://static.wixstatic.com/media/c837a6_5bd6842306eb40ea81ee102ddf3ae51c~mv2.jpg/v1/fill/w_307,h_275,q_90/c837a6_5bd6842306eb40ea81ee102ddf3ae51c~mv2.jpg'></img>
         <p>image title</p>
         </div>
         <div className='carousel_img'>
-        <img className='carousel_imgimg'  src={carousel1}></img>
+        <img className='carousel_imgimg'  src='https://static.wixstatic.com/media/c837a6_ac8ff964db99413a910478b09141b70d~mv2.jpg/v1/fill/w_307,h_275,q_90/c837a6_ac8ff964db99413a910478b09141b70d~mv2.jpg'></img>
         <p>image title</p>
         </div>
         <div className='carousel_img'>
-        <img className='carousel_imgimg'  src={carousel1}></img>
+        <img className='carousel_imgimg'  src='https://static.wixstatic.com/media/c837a6_06310f296d834268991d3dcba2a2d3e2~mv2.jpg/v1/fill/w_307,h_275,q_90/c837a6_06310f296d834268991d3dcba2a2d3e2~mv2.jpg'></img>
         <p>image title</p>
         </div>
         <div className='carousel_img'>
-        <img className='carousel_imgimg' src={carousel1}></img>
+        <img className='carousel_imgimg' src='https://static.wixstatic.com/media/c837a6_d3ee39380b11409d92aa82f1a280a3df~mv2.jpg/v1/fill/w_307,h_275,q_90/c837a6_d3ee39380b11409d92aa82f1a280a3df~mv2.jpg'></img>
         <p>image title</p>
         </div>
         <div className='carousel_img'>
-        <img className='carousel_imgimg'  src={carousel1}></img>
+        <img className='carousel_imgimg'  src='https://static.wixstatic.com/media/c837a6_52ff9d68a80b4e36a20487b8e4aff855~mv2.jpg/v1/fill/w_307,h_275,q_90/c837a6_52ff9d68a80b4e36a20487b8e4aff855~mv2.jpg'></img>
         <p>image title</p>
         </div>
-        <div className='carousel_img'>
-        <img className='carousel_imgimg' src={carousel1}></img>
-        <p>image title</p>
-        </div>
-        <div className='carousel_img'>
-        <img className='carousel_imgimg' src={carousel1}></img>
-        <p>image title</p>
-        </div>
-        <div className='carousel_img'>
-        <img className='carousel_imgimg'  src={carousel1}></img>
-        <p>image title</p>
-        </div>
+       
       </ReactSimplyCarousel>
        </div>
        </ParallaxLayer>
@@ -283,11 +273,11 @@ Service</p>
        Our Clients</div>
        <table className='section6_tabler'>
                 <tr >
-                  <td className='section6_table' ><img src='http://3.123.22.66/django_media/our_works/home-page-our-clients-1.png'/></td>
-                  <td className='section6_table'><img src='http://3.123.22.66/django_media/our_works/home-page-our-clients-2.png'/></td>
-                  <td className='section6_table'><img src='http://3.123.22.66/django_media/our_works/home-page-our-clients-3.png'/></td>
-                  <td className='section6_table'><img src='http://3.123.22.66/django_media/our_works/home-page-our-clients-4.png'/></td>
-                  <td className='section6_table'><img src='http://3.123.22.66/django_media/our_works/home-page-our-clients-5.png'/></td>
+                  <td className='section6_table' ><img src='https://img001.prntscr.com/file/img001/T-P_wGZrSDCxucpx8tKCOQ.png'/></td>
+                  <td className='section6_table'><img src='https://img001.prntscr.com/file/img001/21nJBkuhT0KR9glJ87oEyg.png'/></td>
+                  <td className='section6_table'><img src='https://img001.prntscr.com/file/img001/9SKGEHRuRWK-5F2vGRyFOg.png'/></td>
+                  <td className='section6_table'><img src='https://img001.prntscr.com/file/img001/DcCKB0WwRCmk3LKnqQIMIw.png'/></td>
+                  <td className='section6_table'><img src='https://img001.prntscr.com/file/img001/qnjeiS_5R-iCcBplu8tj0w.png'/></td>
                 </tr>
               </table>
             

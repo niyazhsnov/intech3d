@@ -13,13 +13,13 @@ const Contact = () => {
 
     <>
     <div className='contact_main'>
-    <img className='contact_backimage' src={back} />
+    <img className='contact_backimage' src={back} alt='' />
     <div className='contact_div'>
         <h3>Contact Us</h3>
         
         <ul className='links'>
         <li className='media' >
-          <img className='link_logos' src='https://i.giphy.com/media/ein9jzZFhQJai7eqAE/giphy.webp'/> <p>+994 998 40 44 34</p>
+          <img className='link_logos' src='https://i.giphy.com/media/ein9jzZFhQJai7eqAE/giphy.webp' alt=''/> <p>+994 998 40 44 34</p>
         </li>
         <li className='media' >
           <img className='link_logos' src='https://i.pinimg.com/originals/9c/e6/6a/9ce66a7e1727003ea9351dd7a94ea121.gif'/><a href={instagramlink}>Instagram</a>
